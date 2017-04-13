@@ -16,8 +16,8 @@ Set orbit with schema inputs: rotationPostion, radious, speed, clockwise, oval, 
 * startPosition is put in degrees,  if you're looking forward at 0,0,0  270 degrees is in front of you.
 * centerView is a boolean that lets the element always face in towards the rotationPosition
 
-EXAMPLE: <a-box orbit></a-box>
+EXAMPLE: `<a-box orbit></a-box>`
 
-EXAMPLE: <a-box orbit="rotationPosition: 0 0; radious: 2; speed: 3;"></a-box>
+EXAMPLE: `<a-box orbit="rotationPosition: 0 0; radious: 2; speed: 3;"></a-box>`
 
-EXAMPLE: <a-box position="0 2 0" orbit="rotationPosition: 1 2; radious: 3; speed: 2; clockwise:false; oval: 1.6 1; startPosition: 270"></a-box>
+EXAMPLE: `<a-box position="0 2 0" orbit="rotationPosition: 1 2; radious: 3; speed: 2; clockwise:false; oval: 1.6 1; startPosition: 270"></a-box>`
